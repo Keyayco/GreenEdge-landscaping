@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1B3A2F" />
+  <title>GreenEdgeLandscaping | Landscaping &amp; Garden Services</title>
+  <meta name="description" content="Discover GreenEdgeLandscaping and explore landscaping inspiration, garden improvements, and outdoor services. Get in touch to discuss your garden." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="GreenEdgeLandscaping | Landscaping & Garden Services" />
+  <meta property="og:description" content="Transform your outdoor space with thoughtful landscaping and garden care. Explore our services and request a quote." />
+  <meta property="og:image" content="https://images.pexels.com/photos/7587467/pexels-photo-7587467.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop" />
+  <meta property="og:site_name" content="GreenEdgeLandscaping" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip link -->
+  <a href="#hero" class="skip-link">Skip to content</a>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="wordmark" aria-label="GreenEdgeLandscaping home">
+        <svg class="wordmark-icon" width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <path d="M16 2C10 2 5 6 4 12c1 0 3-.5 4.5-1.5C9.5 15 12 17 16 17s6.5-2 7.5-6.5C25 11.5 27 12 28 12 27 6 22 2 16 2z" fill="currentColor"/>
+          <path d="M16 17v13M11 27l5-4 5 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="wordmark-text">GreenEdge<span class="wordmark-accent">Landscaping</span></span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#why">Why Us</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary btn-header-cta">Request a Quote</a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-mobile">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile nav -->
+    <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile navigation" hidden>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#contact" class="btn btn-primary btn-mobile-cta">Request a Quote</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <img
+          src="https://images.pexels.com/photos/7587467/pexels-photo-7587467.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&fit=crop"
+          alt=""
+          fetchpriority="high"
+          onerror="this.style.display='none';this.parentElement.classList.add('hero-fallback')"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <p class="hero-eyebrow">Landscaping &amp; Garden Services</p>
+        <h1 class="hero-title">Transform Your Outdoor Space Into Something Extraordinary</h1>
+        <p class="hero-subtitle">Thoughtful garden design, quality lawn care, and practical outdoor improvements — tailored to the way you live outside.</p>
+        <div class="hero-cta-group">
+          <a href="#contact" class="btn btn-primary btn-lg">Request a Quote</a>
+          <a href="#services" class="btn btn-secondary btn-lg">Explore Our Services</a>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-eyebrow">What We Do</p>
+          <h2 class="section-title">Garden &amp; Landscaping Services</h2>
+          <p class="section-intro">From full garden transformations to routine maintenance, here are the services we may be able to help with. Get in touch to discuss your specific needs.</p>
+        </div>
+
+        <!-- Featured service: Garden Design -->
+        <article class="service-feature">
+          <div class="service-feature-img">
+            <img
+              src="https://images.pexels.com/photos/7174104/pexels-photo-7174104.jpeg?auto=compress&cs=tinysrgb&w=900&h=700&fit=crop"
+              alt="Wooden pathway through a landscaped garden with green grass and trees"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-feature-body">
+            <span class="service-number">01</span>
+            <h3>Garden Design &amp; Landscaping</h3>
+            <p>Complete garden makeovers — from layout and planting plans to paving, pathways, and structural features that bring your outdoor vision to life.</p>
+            <a href="#contact" class="text-link">Enquire about garden design <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <!-- Service grid -->
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-card-img">
+              <img
+                src="https://images.pexels.com/photos/4162011/pexels-photo-4162011.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+                alt="Person mowing a green lawn with a lawnmower"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-card-body">
+              <span class="service-number">02</span>
+              <h3>Lawn Installation &amp; Maintenance</h3>
+              <p>Fresh lawn laying, regular mowing, edging, and lawn care to keep your grass healthy and green all year round.</p>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card-img">
+              <img
+                src="https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+                alt="Gardener mowing grass on a sunny day"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-card-body">
+              <span class="service-number">03</span>
+              <h3>Garden Clean-Ups</h3>
+              <p>Seasonal clear-outs, green waste removal, and general tidy-ups to bring order back to overgrown or neglected gardens.</p>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card-img">
+              <img
+                src="https://images.pexels.com/photos/38936349/pexels-photo-38936349.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+                alt="Person trimming a green hedge with garden shears"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-card-body">
+              <span class="service-number">04</span>
+              <h3>Hedge Trimming &amp; Pruning</h3>
+              <p>Precise hedge shaping, shrub pruning, and tree trimming to maintain clean lines and healthy growth.</p>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card-img">
+              <img
+                src="https://images.pexels.com/photos/450064/pexels-photo-450064.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+                alt="Garden path surrounded by lush green plants and pebbled walkway"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-card-body">
+              <span class="service-number">05</span>
+              <h3>Planting &amp; Garden Beds</h3>
+              <p>New flower beds, shrub placement, and strategic planting choices that add colour, texture, and structure to your garden.</p>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card-img">
+              <img
+                src="https://images.pexels.com/photos/31291000/pexels-photo-31291000.png?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+                alt="Outdoor patio with wooden decking, garden plants, and seating area"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-card-body">
+              <span class="service-number">06</span>
+              <h3>Outdoor Space Improvements</h3>
+              <p>Paving, decking, stone features, and practical upgrades that make your garden more usable and enjoyable.</p>
+            </div>
+          </article>
+        </div>
+
+        <p class="services-note">These services are presented as a demonstration of what GreenEdgeLandscaping may offer. Contact us to confirm availability for your specific project.</p>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div class="about-img-stack">
+          <img
+            src="https://images.pexels.com/photos/39117267/pexels-photo-39117267.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+            alt="Stone pathway winding through a lush green garden"
+            loading="lazy"
+            class="about-img-main"
+          />
+          <img
+            src="https://images.pexels.com/photos/38843820/pexels-photo-38843820.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&fit=crop"
+            alt="Green garden with neatly trimmed bushes and stone wall"
+            loading="lazy"
+            class="about-img-secondary"
+          />
+        </div>
+        <div class="about-content">
+          <p class="section-eyebrow">About Us</p>
+          <h2 class="section-title">Outdoor Spaces, Thoughtfully Made</h2>
+          <p>GreenEdgeLandscaping is about helping you get more from your garden. Whether it's a full redesign or ongoing care, the goal is simple: practical, good-looking outdoor spaces that suit your home and your lifestyle.</p>
+          <p>Every garden is different. We take the time to understand what you want from your outdoor area — whether that's a place to relax, space for the family, or simply a garden that looks great with minimal effort on your part.</p>
+          <ul class="about-list">
+            <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M6 10l3 3 5-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Garden plans tailored to your space and budget</li>
+            <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M6 10l3 3 5-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Practical solutions, not just aesthetics</li>
+            <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M6 10l3 3 5-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> A straightforward, no-pressure enquiry process</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY ===== -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-eyebrow">Inspiration</p>
+          <h2 class="section-title">Landscaping Inspiration</h2>
+          <p class="section-intro">A collection of garden and landscaping ideas to spark your imagination. These are inspirational images — your garden could look like any of these.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item gallery-item-tall" data-full="https://images.pexels.com/photos/33966133/pexels-photo-33966133.jpeg?auto=compress&cs=tinysrgb&w=1400" aria-label="Enlarge image: Stepped stone terrace with lush plants and a red brick wall">
+            <img src="https://images.pexels.com/photos/33966133/pexels-photo-33966133.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop" alt="Stepped stone terrace with lush plants and a red brick wall" loading="lazy" />
+            <span class="gallery-zoom-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M16 16l4 4M7 9h4M9 7v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+          </button>
+          <button class="gallery-item" data-full="https://images.pexels.com/photos/7546775/pexels-photo-7546775.jpeg?auto=compress&cs=tinysrgb&w=1400" aria-label="Enlarge image: House exterior with backyard patio and manicured lawn">
+            <img src="https://images.pexels.com/photos/7546775/pexels-photo-7546775.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop" alt="House exterior with backyard patio and manicured lawn" loading="lazy" />
+            <span class="gallery-zoom-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M16 16l4 4M7 9h4M9 7v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+          </button>
+          <button class="gallery-item" data-full="https://images.pexels.com/photos/39117267/pexels-photo-39117267.jpeg?auto=compress&cs=tinysrgb&w=1400" aria-label="Enlarge image: Stone pathway meandering through lush green garden">
+            <img src="https://images.pexels.com/photos/39117267/pexels-photo-39117267.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop" alt="Stone pathway meandering through lush green garden" loading="lazy" />
+            <span class="gallery-zoom-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M16 16l4 4M7 9h4M9 7v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+          </button>
+          <button class="gallery-item gallery-item-wide" data-full="https://images.pexels.com/photos/13871294/pexels-photo-13871294.jpeg?auto=compress&cs=tinysrgb&w=1400" aria-label="Enlarge image: Wooden gazebo in lush garden with stone flooring">
+            <img src="https://images.pexels.com/photos/13871294/pexels-photo-13871294.jpeg?auto=compress&cs=tinysrgb&w=800&h=450&fit=crop" alt="Wooden gazebo in lush garden with stone flooring" loading="lazy" />
+            <span class="gallery-zoom-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M16 16l4 4M7 9h4M9 7v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+          </button>
+          <button class="gallery-item" data-full="https://images.pexels.com/photos/8189102/pexels-photo-8189102.jpeg?auto=compress&cs=tinysrgb&w=1400" aria-label="Enlarge image: Rock garden with succulents in warm sunlight">
+            <img src="https://images.pexels.com/photos/8189102/pexels-photo-8189102.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop" alt="Rock garden with succulents in warm sunlight" loading="lazy" />
+            <span class="gallery-zoom-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M16 16l4 4M7 9h4M9 7v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+          </button>
+          <button class="gallery-item" data-full="https://images.pexels.com/photos/7998634/pexels-photo-7998634.jpeg?auto=compress&cs=tinysrgb&w=1400" aria-label="Enlarge image: Garden with lush plants and stones in front of a house">
+            <img src="https://images.pexels.com/photos/7998634/pexels-photo-7998634.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop" alt="Garden with lush plants and stones in front of a house" loading="lazy" />
+            <span class="gallery-zoom-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M16 16l4 4M7 9h4M9 7v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="why" id="why">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-eyebrow">Why Choose Us</p>
+          <h2 class="section-title">The GreenEdge Difference</h2>
+          <p class="section-intro">Simple, practical reasons to get in touch about your garden project.</p>
+        </div>
+        <div class="why-grid">
+          <div class="why-item">
+            <div class="why-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <path d="M16 4C10 4 6 8 6 14c0 6 10 14 10 14s10-8 10-14c0-6-4-10-10-10z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M12 14l3 3 5-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>A More Attractive Outdoor Space</h3>
+            <p>Whether it's a full redesign or targeted improvements, the goal is a garden you genuinely enjoy spending time in.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <rect x="5" y="8" width="22" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+                <path d="M11 8V5M21 8V5M5 14h22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M10 19l3 3 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Practical Landscaping Solutions</h3>
+            <p>Designs and improvements that work with your space, climate, and maintenance preferences — not against them.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2"/>
+                <path d="M16 9v7l5 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Attention to Detail</h3>
+            <p>From neat edges to considered planting choices, the small things add up to a garden that looks finished and well-cared-for.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <path d="M8 6l-4 6 4 6v6c0 2 2 4 4 4h4M20 6l4 6-4 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14 16h4M14 20h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>A Straightforward Enquiry Process</h3>
+            <p>Get in touch via WhatsApp or phone, tell us what you need, and we'll take it from there. No forms, no complications.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT / ENQUIRY ===== -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-text">
+            <p class="section-eyebrow section-eyebrow-light">Get In Touch</p>
+            <h2 class="section-title section-title-light">Ready to Transform Your Garden?</h2>
+            <p class="contact-desc">Send us a message on WhatsApp or give us a call. Tell us about your garden and what you'd like to achieve — we'll help you figure out the next steps.</p>
+            <div class="contact-actions">
+              <a href="https://wa.me/27635423640?text=Hi%20GreenEdgeLandscaping%2C%20I%20found%20your%20website%20and%20would%20like%20to%20enquire%20about%20your%20landscaping%20services." 
+                 class="btn btn-whatsapp btn-lg" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 aria-label="Contact GreenEdgeLandscaping on WhatsApp">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                Message on WhatsApp
+              </a>
+              <a href="tel:+27635423640" class="btn btn-phone btn-lg" aria-label="Call GreenEdgeLandscaping at 063 542 3640">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Call 063 542 3640
+              </a>
+            </div>
+          </div>
+          <div class="contact-visual" aria-hidden="true">
+            <img
+              src="https://images.pexels.com/photos/8092383/pexels-photo-8092383.jpeg?auto=compress&cs=tinysrgb&w=700&h=800&fit=crop"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="wordmark wordmark-footer" aria-label="GreenEdgeLandscaping home">
+          <svg class="wordmark-icon" width="24" height="24" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <path d="M16 2C10 2 5 6 4 12c1 0 3-.5 4.5-1.5C9.5 15 12 17 16 17s6.5-2 7.5-6.5C25 11.5 27 12 28 12 27 6 22 2 16 2z" fill="currentColor"/>
+            <path d="M16 17v13M11 27l5-4 5 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="wordmark-text">GreenEdge<span class="wordmark-accent">Landscaping</span></span>
+        </a>
+        <p class="footer-tagline">Landscaping &amp; garden services — helping you make the most of your outdoor space.</p>
+      </div>
+      <div class="footer-links">
+        <h4 class="footer-heading">Explore</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#why">Why Us</a></li>
+          <li><a href="#contact">Request a Quote</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4 class="footer-heading">Contact</h4>
+        <ul>
+          <li><a href="tel:+27635423640">063 542 3640</a></li>
+          <li><a href="https://wa.me/27635423640" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+        </ul>
+      </div>
+      <div class="footer-legal">
+        <h4 class="footer-heading">Legal</h4>
+        <ul>
+          <li><button class="footer-policy-link" id="open-privacy" type="button">Privacy Policy</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="current-year">2026</span> GreenEdgeLandscaping. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== PRIVACY POLICY MODAL ===== -->
+  <div class="modal-overlay" id="privacy-modal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="privacy-title" tabindex="-1">
+      <button class="modal-close" id="close-privacy" aria-label="Close privacy policy">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <h2 id="privacy-title" class="modal-title">Privacy Policy</h2>
+      <div class="modal-body">
+        <p><strong>Last updated:</strong> <span id="privacy-date">October 2026</span></p>
+        <p>This is a demonstration website for GreenEdgeLandscaping. This page explains how your information is handled when you use this website.</p>
+        <h3>No Data Collection</h3>
+        <p>This website does not use a backend database, analytics tools, cookies, tracking pixels, or any other data-processing systems. We do not collect or store any personal information through this website.</p>
+        <h3>Contacting Us</h3>
+        <p>When you contact us using the WhatsApp or telephone links on this site, your message is handled by those external services (WhatsApp and your phone network), not by this website. Their own privacy policies and terms apply to your communication.</p>
+        <h3>External Links</h3>
+        <p>This website contains links to WhatsApp. We are not responsible for the privacy practices or content of external services.</p>
+        <h3>Changes</h3>
+        <p>If this website is updated to include additional features, this privacy policy will be updated accordingly.</p>
+        <h3>Contact</h3>
+        <p>For any privacy-related questions, please contact us at <a href="tel:+27635423640">063 542 3640</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== GALLERY LIGHTBOX ===== -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close enlarged image">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <img src="" alt="" id="lightbox-img" />
+  </div>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top" type="button" hidden>
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <path d="M10 16V4M4 8l6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
